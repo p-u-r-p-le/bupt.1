@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<easyx.h>
+int main() {
+    initgraph(900, 800); //´´½¨±³¾°
+    IMAGE img; //Í¼Æ¬±äÁ¿
+
+    loadimage(&img, _T("background.jpg.png"));   //´æ´¢Í¼Æ¬µÄÈÝÆ÷£¬Í¼Æ¬µÄÂ·¾¶£¬
+
+    putimage(0,0, &img);  //×ø±ê£¬Í¼Æ¬
+
+
+    system("pause");
+    return 0;
+}
